@@ -1,7 +1,7 @@
-package com.company;
+package com.company.Algorithm_TwoSum;
 
 import java.util.Arrays;
-import static com.company.SolutionTwoSum.twoSum;
+import static com.company.Algorithm_TwoSum.SolutionTwoSum.twoSum;
 
 public class Main {
 

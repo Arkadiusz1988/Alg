@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Algorithm_TwoSum;
 
 public class SolutionTwoSum {
 
