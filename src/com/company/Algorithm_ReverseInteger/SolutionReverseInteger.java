@@ -14,16 +14,16 @@ public class SolutionReverseInteger {
         tmpN.reverse();
 
 
-      if(tmpN.indexOf("-")==(tmpN.length()-1)){ // if entered int is minus then we create a new reversed string with minus in first sign
-          tmpN.deleteCharAt(tmpN.length()-1);
-          tmpN1.insert(0,"-");
-          tmpN1.insert(1,tmpN);
-          long i =  Long.valueOf(tmpN1.toString());
-          if(i> Integer.MAX_VALUE || i<Integer.MIN_VALUE){ // check if reversed int is albo in int scope
-              return 0;
-          }
-          return (int) i;
-     }
+        if(tmpN.indexOf("-")==(tmpN.length()-1)){ // if entered int is minus then we create a new reversed string with minus in first sign
+            tmpN.deleteCharAt(tmpN.length()-1);
+            tmpN1.insert(0,"-");
+            tmpN1.insert(1,tmpN);
+            long i =  Long.valueOf(tmpN1.toString());
+            if(i> Integer.MAX_VALUE || i<Integer.MIN_VALUE){ // check if reversed int is albo in int scope
+                return 0;
+            }
+            return (int) i;
+        }
 
         if(tmpN.indexOf("0")==(tmpN.length()-1)){
             tmpN.deleteCharAt(tmpN.length()-1);

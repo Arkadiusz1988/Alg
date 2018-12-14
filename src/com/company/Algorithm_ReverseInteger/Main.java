@@ -6,7 +6,7 @@ import static com.company.Algorithm_ReverseInteger.SolutionReverseInteger.revers
 public class Main {
 
     public static void main(String[] args) {
-        int tmp = 1534236469;
+        int tmp = -15346469;
         System.out.println(reverse(tmp));
     }
 }
