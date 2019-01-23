@@ -1,6 +1,5 @@
-package com.company.Algorithm_Longest_Substring_Without_Repeating_Characters;
+package com.company.Unfinished_Algorithm_Longest_Substring_Without_Repeating_Characters;
 
-import java.util.*;
 
 public class SolutionLengthOfLongestSubstring {
 
