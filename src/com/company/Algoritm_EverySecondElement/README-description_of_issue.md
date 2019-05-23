@@ -1,0 +1,1 @@
+Algoritm which return every second element from provided int table
